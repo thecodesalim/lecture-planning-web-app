@@ -1,5 +1,5 @@
-
 ws_Planner
+:computer:
 Simple lecture planning web app
 
 **Installation**
