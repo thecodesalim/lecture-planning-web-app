@@ -6,8 +6,8 @@ Simple lecture planning web app
 
 **Requirements**
 
--Node.js
--Google Chrome web browser
+- Node.js
+- Google Chrome web browser
 
 **Installation**
 
