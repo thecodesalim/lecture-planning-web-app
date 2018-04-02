@@ -1,11 +1,11 @@
 ws_Planner
 Simple lecture planning web app
 Installation 
-   cd ws_planner
-   npm install
+      cd ws_planner
+      npm install
 Running
 Add database:
-Npm run initsql 
+      npm run initsql 
 To run the server:
 npm run dashboard
 The server runs by default on port 8080. 
