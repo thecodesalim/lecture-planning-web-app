@@ -1,8 +1,10 @@
+```
 ws_Planner
 Simple lecture planning web app
 Installation 
       cd ws_planner
       npm install
+      
 Running
 Add database:
       npm run initsql 
@@ -37,6 +39,7 @@ Problems
 
 The toughest problem I came through during the project was trying to create a multiple mapping of the a plan, I tried different methods to solve the problem but I couldn't do it, I had to give up and focus on other parts of the project. I will try and fix it in the future.
 
+'''
 
 
 
