@@ -1,17 +1,25 @@
-```
+
 ws_Planner
 Simple lecture planning web app
-Installation 
+
+**Installation**
+
+      ```
       cd ws_planner
       npm install
+      ```
       
-Running:
-
+**Running:**
+```
 Add database:
       npm run initsql 
+      
 To run the server:
+
       npm start or npm run dashboard 
-The server runs by default on port 8080. 
+      The server runs by default on port 8080
+
+```
 Features
       real-time chatting
       Real time collaborative whiteboard
