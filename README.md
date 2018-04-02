@@ -29,9 +29,9 @@ To run the server:
 - real-time chatting
 - Real time collaborative whiteboard
 - all blocks can be deleted
-- weeks can be reordered by dragging the week number
+- plans can be reordered by drag and drop
 - One to one mapping of a plan
-- drag and drop plans
+
       
 **Improvements**
 - Google authentication
