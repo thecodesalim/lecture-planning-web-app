@@ -4,14 +4,13 @@ Simple lecture planning web app
 
 **Installation**
 
-      ```
       cd ws_planner
       npm install
-      ```
       
 **Running:**
-```
+
 Add database:
+
       npm run initsql 
       
 To run the server:
@@ -19,18 +18,19 @@ To run the server:
       npm start or npm run dashboard 
       The server runs by default on port 8080
 
-```
 **Features**
-     - real-time chatting
-     - Real time collaborative whiteboard
-     - all blocks can be deleted
-     - weeks can be reordered by dragging the week number
-     - One to one mapping of a plan
+- real-time chatting
+- Real time collaborative whiteboard
+- all blocks can be deleted
+- weeks can be reordered by dragging the week number
+- One to one mapping of a plan
       
 **Improvements**
-     - Google authentication
-     - Live collaborative editing
-     - Multiple mapping of a plan
+- Google authentication
+- Live collaborative editing
+- Multiple mapping of a plan
+
+##Reflection
      
 I personally learned a lot throughout the time of these coursework. I have learned new skills to solve different problems. 
 
@@ -49,7 +49,6 @@ Problems
 
 The toughest problem I came through during the project was trying to create a multiple mapping of the a plan, I tried different methods to solve the problem but I couldn't do it, I had to give up and focus on other parts of the project. I will try and fix it in the future.
 
-```
 
 
 
