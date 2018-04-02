@@ -31,6 +31,7 @@ To run the server:
 - all blocks can be deleted
 - weeks can be reordered by dragging the week number
 - One to one mapping of a plan
+- drag and drop plans
       
 **Improvements**
 - Google authentication
