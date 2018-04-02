@@ -4,6 +4,11 @@
 
 Simple lecture planning web app
 
+**Requirements**
+
+-Node.js
+-Google Chrome web browser
+
 **Installation**
 
       cd ws_planner
@@ -32,7 +37,7 @@ To run the server:
 - Live collaborative editing
 - Multiple mapping of a plan
 
-## Reflection**
+## Reflection
      
 I personally learned a lot throughout the time of these coursework. I have learned new skills to solve different problems. 
 
