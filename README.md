@@ -20,20 +20,18 @@ To run the server:
       The server runs by default on port 8080
 
 ```
-Features
-      real-time chatting
-      Real time collaborative whiteboard
-      all blocks can be deleted
-      weeks can be reordered by dragging the week number
-      One to one mapping of a plan
+**Features**
+     - real-time chatting
+     - Real time collaborative whiteboard
+     - all blocks can be deleted
+     - weeks can be reordered by dragging the week number
+     - One to one mapping of a plan
       
-Planned improvements
-      Google authentication
-      Live collaborative editing
-      Multiple mapping of a plan
-      
-      ** Reflection **
-      
+**Improvements**
+     - Google authentication
+     - Live collaborative editing
+     - Multiple mapping of a plan
+     
 I personally learned a lot throughout the time of these coursework. I have learned new skills to solve different problems. 
 
 During this project I used different skills I have learned in this unit to bring it life.
