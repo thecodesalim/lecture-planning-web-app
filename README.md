@@ -1,8 +1,8 @@
 ws_Planner
 Simple lecture planning web app
 Installation 
-Cd ws_planner
-Npm install
+   cd ws_planner
+   npm install
 Running
 Add database:
 Npm run initsql 
