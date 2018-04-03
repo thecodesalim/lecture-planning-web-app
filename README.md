@@ -18,7 +18,11 @@ Simple lecture planning web app
 **Running:**
 
 Add database:
-- Change the mysql credentials inside **config.js** to your settings before running **npm run initsql**
+
+Change the mysql credentials inside **config.js** to your settings before running **npm run initsql**
+
+On default both user and password are roots
+
 
       npm run initsql 
       
