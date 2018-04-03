@@ -17,6 +17,7 @@ Simple lecture planning web app
 **Running:**
 
 Add database:
+Change the mysql credentials inside config.js to your settings
 
       npm run initsql 
       
