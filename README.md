@@ -29,9 +29,10 @@ To run the server:
 **Features**
 - real-time chatting
 - Real time collaborative whiteboard
-- all blocks can be deleted
 - plans can be reordered by drag and drop
 - One to one mapping of a plan
+- all blocks can be deleted
+- Intuitive UI
 
       
 **Improvements**
