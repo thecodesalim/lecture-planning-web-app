@@ -35,6 +35,7 @@ To run the server:
 - all blocks can be deleted
 - Intuitive UI
 - Saving of plans to database
+- Responsive Design
 
       
 **Improvements**
