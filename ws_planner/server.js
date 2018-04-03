@@ -117,9 +117,6 @@ app.delete('/api/plans/:id', (req, res) => {
   );
 });
 
-//update plan
-app.put('/api/plans/:id', (req, res) => {});
-
 /**
  * GET /api/plans/:id
  * Gets a specific plan from the database
