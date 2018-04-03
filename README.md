@@ -34,6 +34,7 @@ To run the server:
 - One to one mapping of a plan
 - all blocks can be deleted
 - Intuitive UI
+- Saving of plans to database
 
       
 **Improvements**
