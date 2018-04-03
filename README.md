@@ -1,6 +1,7 @@
 ## ws_Planner
 
 :computer:
+:zap:
 
 Simple lecture planning web app
 
