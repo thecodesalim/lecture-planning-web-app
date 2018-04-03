@@ -6,7 +6,6 @@ const mysql = require('mysql2');
 const config = require('./config');
 
 // Mysql credentials
-// make sure you put password
 const connection = mysql.createConnection(config.mysql)
 
 // Connects to mysql database
