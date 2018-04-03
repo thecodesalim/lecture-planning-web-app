@@ -6,5 +6,6 @@ const path = require('path');
 module.exports.mysql = {
     host: 'localhost',
     user: 'root',
+    password: 'root',
     database: 'ws_planner',
 };
