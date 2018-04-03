@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Planner</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js">
+  </script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Options to pick from -->  
+    <div id="picker">
+      <button type="button" class="mainBtn">create plan</button>
+      <button type="button" id="boardBtn"> whiteboard </button>
+    </div>
+
+  <!-- Whiteboard -->  
+    <div id="drawboard">
+      <button type="button" id="backBtn">back</button>
+      <svg id="svg"></svg>
+    </div>
+
+<!-- Main app -->  
+  <main >
+
+    <div class="main" id="open">
+  
+      <section class="addText" id="one">
+        <button type="button" class="rtnBtn">back</button>
+      </section>
+
+      <section class="card" >
+        <div class="inner-card">
+          <button type="button" id="addPlan">new</button>
+        </div>
+        <div class="inner-inner-card" id="add">
+        </div>
+      </section>
+
+      <section class="show">
+        
+          
+        <div id="top">
+            <button type="button" id="chat">chat</button>
+        </div>
+    
+        <div class="io">
+          <ul id="messages"></ul>
+          <input id="text"/>
+          <button id="send">Send</button>
+        </div>
+
+        <h4 id="board">Board</h4>
+
+        <div class="headLine" id="drop">
+
+            <div class="topics" id="home">
+              <h4>Lecture</h4>
+            </div>
+        
+          <div class="notes">
+                <h4>Practical</h4>
+          </div>
+  
+          <div class="resources">
+                <h4>Misc</h4>
+          </div>
+       </div>
+     </section>
+    </div>
+  </main>
+<script src="chat.js"></script>
+<script src="index.js"></script>
+<script src="whiteboard.js"></script>
+
+</body>
+

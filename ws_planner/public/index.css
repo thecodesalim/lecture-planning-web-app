@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Dhurjati');
+
+:root {
+  --main-bg-color:#5D8CAE;
+}
+body {
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: 'Dhurjati', sans-serif;
+}
+
+ul , li{
+  list-style-type: none;
+}
+
+.list li{
+    transition: transform 300ms ease-in;
+  }
+
+.list li:hover {
+  transform:translateY(5px);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  animation: explosion 1s forwards;
+  grid-template-areas:
+      "one three  three three three three"
+      "two three  three three three three"
+      ". three  three three three three";
+}
+
+@keyframes explosion {
+  0% {
+    opacity: 0;
+    }
+  100% {
+    opacity: 1;
+    }
+  }
+
+.addText, .card{
+  background-color: var(--main-bg-color);
+  border-radius: 5px;
+}
+
+.headLine {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    grid-template-areas:
+      "topic note rec"
+      "topic note rec"
+      "topic note rec "
+  }
+
+.addText{
+  grid-area: one;
+  }
+
+.card{
+  grid-area: two;
+  z-index: 2;
+  }
+
+.show{
+  border-radius: 5px;
+  background-color:var(--main-bg-color);
+  grid-area: three;
+  }
+
+#top{
+  display: flex;
+  background-color: var(--main-bg-color);
+}
+
+#planId{
+  grid-area: chat;
+}
+
+.inner-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "name wk "
+    "btn . "
+}
+
+#save{
+ grid-area: save;
+}
+
+#addWeek{
+  grid-area: btn;
+}
+
+.topics {
+  grid-area: topic;
+  border-style: solid;
+}
+
+.notes {
+  grid-area: note;
+  border-style: solid;
+}
+
+.resources {
+  grid-area: rec;
+  border-style: solid;
+}
+
+#wk {
+  border-radius: 5px;
+  grid-area: wk;
+}
+
+h4, h3, p { 
+  padding-left: 5px;
+}
+
+.blem {
+  background-color: var(--main-bg-color);
+  display: grid;
+}
+
+.main {
+  display: none;
+}
+
+button {
+  border-style: solid;
+  background-color: #5D8CAE;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #95a5a6
+}
+
+.io {
+  display: grid;
+  border: 2px solid;
+  display: none;
+}
+
+#svg {
+  background-color: white;
+  width: 500px; 
+  height: 500px
+}
+
+#drawboard {
+  display: none;
+  align-items: center;
+}
+
+#planId {
+  cursor: pointer;
+}
+
+#planId li:hover {
+  background-color: #95a5a6;
+}
+
+.planBlock { 
+  border-style: solid;
+}
+
+#top {
+  display: flex;
+  justify-self: end;
+}
+
+#mainCard {
+  border-style: solid;
+}
+
+.remove{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+

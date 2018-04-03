@@ -1,0 +1,23 @@
+{
+  "name": "ws_planner",
+  "version": "1.0.0",
+  "description": "simple lecture planning web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dashboard": "node server.js",
+    "initsql": "mysql -u root -p < database.sql"
+  },
+  "author": "UP800143",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "prettier": "1.11.1"
+  },
+  "repository": "https://github.com/thecodesalim/planner"
+}
