@@ -37,6 +37,8 @@ To run the server:
 - Saving of plans to database
 - Responsive Design
 
+**Note:** * For the chat and whiteboard, to see the real-time functionality you need to open to another tab or browser and see both communicating *
+
       
 **Improvements**
 - Google authentication
