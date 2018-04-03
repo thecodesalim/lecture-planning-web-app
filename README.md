@@ -21,7 +21,7 @@ Add database:
 
 Change the mysql credentials inside **config.js** to your settings before running **npm run initsql**
 
-On default both user and password are roots
+On default both user and password are root
 
 
       npm run initsql 
